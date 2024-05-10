@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES: "0,1,2,3"
+epoch: 36
+batch: 20
+learning_rate: 0.0005
+train_data_size: 10000
+loss_type: "MSE" # "L1" "BCE"
+mask_value: [1.0,1.0,3.0,20.0]
+multiprocessing: 10
+use_noise: True
+noise_number: 20
+noise_threshold: 0.05
+type: "hangzhou"

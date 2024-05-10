@@ -1,0 +1,7 @@
+# Project exclude paths
+/src/script/cache/
+/.idea/
+/src/model/cache/
+/src/model/data/
+/src/script/cache/
+/src/script/figure/
